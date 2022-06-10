@@ -1,0 +1,2 @@
+# CVsite
+Desktop mode only
