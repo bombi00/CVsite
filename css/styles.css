@@ -1,0 +1,297 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color: inherit; 
+} 
+
+.top {
+    width: 100%;
+    height: 500px;
+    border-collapse: collapse;
+    margin-bottom: 0px;
+    background-image: url('sfondo.png');
+    background-size: cover;
+    /*background-color: #087e8b;*/
+    
+}
+
+.bottom {
+    width: 100%;
+    height: 600px;
+    border-collapse: collapse;
+    background-color: #1d1d1d;
+    border-top: 0;
+}
+
+.center {
+    position: relative;
+    width: 60%;
+    height: 700px;
+    background-color: #F5F5F5;
+    top:50%;
+    left: 20%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.menu{
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    padding: 0;
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.btnf{
+    background-color: #3C3C3C;
+    list-style: none;
+    border: none;
+    border-radius: 50px;
+    color: #F5F5F5;
+    font-size: 70%;
+    margin-top: 50px;
+    padding: 20px 30px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.btn{
+    background-color: #3C3C3C;
+    list-style: none;
+    border: none;
+    border-radius: 50px;
+    color: #F5F5F5;
+    font-size: 70%;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 20px 30px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.btnf:hover {
+    background-color: white;
+    color: #3C3C3C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: example;
+    animation-duration: 0.3s;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #3C3C3C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: example;
+    animation-duration: 0.3s;
+    border-radius: 8px;
+}
+
+@keyframes example {
+    from {border-radius: 50px;}
+    to {border-radius: 8px;}
+}
+
+.cright {
+    overflow: hidden;
+    height: 90%;
+    width: 35%;
+    float: right;
+    background-color: #F5F5F5;
+}
+
+.cleft {
+    height: 90%;
+    width: 65%;
+    float: left;
+    background-color: #F5F5F5;
+}
+
+.clefttop {
+    height: 60%;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.cleftbottom {
+    background-color: #F5F5F5;
+    overflow: hidden;
+
+}
+
+.cbottom {
+    height: 100%;
+    width: 100%;
+    background-color: #ff5a5f;
+}
+
+.cltleft {
+    height: 100%;
+    width: 40%;
+    float: left;
+    background-color: #F5F5F5;
+}
+
+.cltright {
+    overflow: hidden;
+    height: 100%;
+    width: 60%;
+    float: right;
+    padding: auto;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.profilo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.loghi {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.svgf {
+    float: left;
+    margin-top: 15px;
+}
+
+.svg {
+    float: left;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.ruler {
+    border: 1px solid rgb(128, 128, 128);
+    width: 70%;
+}
+
+.personaldata {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.skill{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    border-spacing: 15px;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
+
+.ctop {
+    height: 90%;
+    width: 100%;
+}
+
+.ebottom {
+    height: 10%;
+    width: 100%;
+    background-color: #ff5a5f;
+}
+
+.experience {
+    text-align: center;
+    
+}
+
+.exptb {
+    
+    margin-top: 10px;
+    border-spacing: 20px;
+    font-family: Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stop {
+    width: 100%;
+    height: 45%;
+    background-color: #634041;
+}
+
+.sbottom{
+    width: 100%;
+    height: 45%;
+    background-color: aqua;
+}
+
+.lef {
+    height: 100%;
+    width: 33%;
+    float: left;
+    background-color: #d82121;
+}
+
+.mid {
+    height: 100%;
+    width: 34%;
+}
+
+.rig{
+    height: 100%;
+    width: 33%;
+    float: right;
+    background-color: #1d1d1d;
+}
+
+.btnd{
+    background-color: #3C3C3C;
+    list-style: none;
+    border: none;
+    border-radius: 50px;
+    color: #F5F5F5;
+    font-size: 70%;
+    margin-top: 50px;
+    padding: 20px 30px;
+    transition-duration: 0.4s;
+    font-weight: bold;   
+}
+
+.button {
+    text-align: center;
+}
+
+.btnd:hover {
+    background-color: white;
+    color: #3C3C3C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    animation-name: example;
+    animation-duration: 0.3s;
+    border-radius: 8px;
+}
